@@ -61,7 +61,7 @@
     align-items: center;
 }
  .navbar, .banner{
-   max-width: 1400px; 
+   max-width: 1440px; 
     margin: 0;
     margin: auto;
    border: 2px solid rebeccapurple;
@@ -86,4 +86,44 @@
  .banner-description{
     font-weight: 400;
     font-size: 1rem;
+}
+/* main styling */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
+/* team and feature related styling */
+.teams{
+    gap: 70px;
+}
+.span1{
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+.span2{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+}
+.span3{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #FF900E;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+}
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
