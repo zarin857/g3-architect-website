@@ -122,6 +122,29 @@ main > section{
     gap: 24px;
     
 }
+/* feature section related style */
+.features{
+    gap: 100px;
+}
+#feature-section-title{
+   border-left: 5px solid chocolate
+   ;
+   padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    gap: 30px;
+    border-radius: 8px;
+  
+
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+      margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* some facts related style */
 .fact-container{
     display: grid;
